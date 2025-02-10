@@ -13,14 +13,7 @@ let lineMaker = function(num) {
 
 console.log(lineMaker(3))
 
-function printSquare(num) {
-  for (let i = 0; i < num; i++) {
-    let row = "1";
-    for (let j = 0; j < num; j++) {
-      row += "* ";
-    }
-    console.log(row);
-  }
+let makeSquare = function(num) {
+ 
 }
 
-console.log(printSquare(5))
